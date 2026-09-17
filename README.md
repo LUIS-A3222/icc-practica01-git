@@ -8,3 +8,12 @@ practica 1.-
 - Los archivos se guardan al mismo tiempo
 ##¿Que esperan que ocurra cuando ambos modifican exactamente la misma linea?
 - Se suben ambos cambios por separado
+
+## Comandos observados 
+git pull
+git fetch
+git clone
+git remote
+git add
+git commit 
+
