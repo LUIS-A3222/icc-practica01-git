@@ -44,5 +44,15 @@ A--B--C--D--F <-- main
  El push rechazado es cuando los documentos no estan sincronizados un conflicto es cuando se generan diferentes problemas ajenos a la sincronizacion de los archivos 
 
 ## ¿Realizar un merge implica necesariamente que exista un conflicto?
--No por que cuando usamos el merge se ejecuto sin ningun problema, solo hizo que los cambios ejecutados al mismo tiempo se guardaran en las ramas nuevas, ademas 
+No por que cuando usamos el merge se ejecuto sin ningun problema, solo hizo que los cambios ejecutados al mismo tiempo se guardaran en las ramas nuevas, ademas 
 se usa para definir el orden en el que se integran las actualizaciones 
+
+## Preguntas primer conflicto
+1. ¿Que representa HEAD en este momento?
+      Las secciones que tubieron conflicto en la integracion de ramas 
+2. ¿Que representa el contenido entre <<<< y =======?
+      La diferencia en el primer commit al integrar las ramas 
+3. ¿Que representa el contenido entre ======= y >>>>?
+      La diferencia en el segundo commit al integrar las ramas 
+4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
+      No da mas importancia a alguno de commit y no puede decir que cambios conservar
