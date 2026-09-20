@@ -1,13 +1,10 @@
 # Sistema decimal
 El sistema decimal utiliza base 10
-El sistema decimal utiliza diez simbolos diferentes.
+El sistema decimal es un sistema posicional de base diez.
 ## EJEMPLO
 El numero 42 en decimal se escribe como:
 42
-<<<<<<< HEAD
-reto 14
-=======
->>>>>>> conflicto-decimal-a
+reto 14.1
 SE CREO LA NUEVA RAMA DECIMAL
-El sistema decimal utiliza diez simbolos diferentes.
 
+El sistema decimal utiliza diez simbolos diferentes y es un sistema posicional de base diez.
