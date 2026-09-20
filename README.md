@@ -79,3 +79,25 @@ A--B--C--D--F--(G--J)--K--M--N--P--Q--S------------------------------U--V--X--AA
 	Los errores que se cometieron durante la realizacion de la practica como los errores minimos (ortograficos o estructurales) o errores grandes como cuando creamos una rama extra para el reto 14 por que salio inverso o cuando el desarrollador B tuvo problemas para que la maquina ejecutara correctamente los commits
 - ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
 	La integracion de las ramas, el problema merge por que ya vemos que el sistema no le da prioridad a nadie y no elimina nada mantienendo las 2 versiones hasta que se decida cual sera la version oficial
+
+## Pregunta del reto 19
+- ¿Que ventaja tiene utilizar el nombre v1.0 para identificar este punto del historial en lugar de utilizar solamente el hash del commit? hay menos etiquetas por lo que es mas facil identificar un tag que un commit, el hash del comit son numeros que no controlamos, a la etiqueta podemos asignar un valor especifico para un control preciso 
+
+## Reflexion final
+
+1. ¿Que información almacena un commit? Los cambios realizados en git add y un comentario 
+2. ¿Que diferencia existe entre un repositorio local y un repositorio remoto? El local se guarda en el equipo y el remoto se encuentra externo
+3. ¿Que ocurrió cuando modificaron archivos diferentes? Se guardan los cambios sin problemas porque no se modificaron 
+4. ¿Que ocurrió cuando modificaron la misma región de un archivo? Entro el conflicto 
+5. ¿Que diferencia existe entre commit y push? el commit se queda en el repositorio local y el push manda el comit al repositorio externo 
+6. ¿Que función tuvo pull durante la practica? descarga los commits y actualizar los archivos de las ramas 
+7. ¿Por que un push puede ser rechazado aunque no exista un conflicto de contenido? si los commits estan adelantados para proteger de cambios erroneos 
+8. ¿Que representa una rama? una linea del repositorio con sus propios cambios independientes a la linea main 
+9. ¿Que indica HEAD? Las secciones que tuvieron conflicto en la integracion de ramas
+10. ¿Que hace merge? integra diferentes ramas en una 
+11. ¿Por que Git pudo integrar algunos cambios automáticamente y otros no? porque los cambios no entraban en conflicto y modificaban archivos diferentes, al hacer modificaciones en el mismo archivo entraban en conflicto con la misma seccion
+12. ¿Que representan los marcadores <<<<, ======= y >>>>? Las secciones de los commits que entran en conflicto  
+13. ¿Que ventaja proporciona un tag? coloca una etiqueta en un punto especifico que lo hace mas facil de identificar 
+14. ¿Como cambio su interpretación de los diagramas de historial después de utilizar git log –graph –oneline –all? las historias pueden ser mas complicadas y con mas cambios a los esperados 
+
+
