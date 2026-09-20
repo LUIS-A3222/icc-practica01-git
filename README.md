@@ -10,12 +10,12 @@ practica 1.-
  Se suben ambos cambios por separado
 
 ## Comandos observados 
- git pull
- git fetch
- git clone
- git remote
- git add
- git commit 
+ -git pull
+ -git fetch
+ -git clone
+ -git remote
+ -git add
+ -git commit 
 
 ## Planeacion
 - Los pull se antes de realizar cualquier modificacion
@@ -26,10 +26,8 @@ practica 1.-
 ## Historial Esperado
 	     --<-binario.md
        /
-	  /
 A--B--C--D--F <-- main
-	  /
-	   /
+	   \
 	    --<-decimal.md
 
 ## Preguntas COLABORAR, ROMPER Y REPARAR
