@@ -9,5 +9,5 @@ reto 14
 =======
 >>>>>>> conflicto-decimal-a
 SE CREO LA NUEVA RAMA DECIMAL
-
+El sistema decimal utiliza diez simbolos diferentes.
 
