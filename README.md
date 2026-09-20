@@ -49,7 +49,7 @@ se usa para definir el orden en el que se integran las actualizaciones
 
 ## Preguntas primer conflicto
 1. ¿Que representa HEAD en este momento?
-      Las secciones que tubieron conflicto en la integracion de ramas 
+      Las secciones que tuvieron conflicto en la integracion de ramas 
 2. ¿Que representa el contenido entre <<<< y =======?
       La diferencia en el primer commit al integrar las ramas 
 3. ¿Que representa el contenido entre ======= y >>>>?
