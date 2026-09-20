@@ -28,8 +28,8 @@ practica 1.-
        /
 	  /
 A--B--C--D--F <-- main
-	  \
-	   \
+	  /
+	   /
 	    --<-decimal.md
 
 ## Preguntas COLABORAR, ROMPER Y REPARAR
