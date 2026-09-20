@@ -24,11 +24,14 @@ practica 1.-
 - Los turnos se iran rolando 1 a 1
 
 ## Historial Esperado
-	     --<-binario.md
-       /
+
+```text
+       --<-binario.md
+      /
 A--B--C--D--F <-- main
-	   \
-	    --<-decimal.md
+      \
+       --<-decimal.md
+```
 
 ## Preguntas COLABORAR, ROMPER Y REPARAR
 - ¿Por qué Git rechazo el primer push de Developer B?
