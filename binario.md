@@ -5,5 +5,6 @@ El sistema decimal utiliza base 2
 El numero 42 en binario se escribe como:
 101010
 
-### Se crea rama binario
-Conflicto binario B
+<<<<<<< HEAD
+## Se creo la nueva rama binario 
+conflicto-binario-a
