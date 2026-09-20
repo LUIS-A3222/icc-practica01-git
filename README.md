@@ -42,3 +42,7 @@ A--B--C--D--F <-- main
  No se actualizaron los documentos que no tenian cambios 
 - ¿Qué diferencia observan entre un push rechazado y un conflicto?
  El push rechazado es cuando los documentos no estan sincronizados un conflicto es cuando se generan diferentes problemas ajenos a la sincronizacion de los archivos 
+
+## ¿Realizar un merge implica necesariamente que exista un conflicto?
+-No por que cuando usamos el merge se ejecuto sin ningun problema, solo hizo que los cambios ejecutados al mismo tiempo se guardaran en las ramas nuevas, ademas 
+se usa para definir el orden en el que se integran las actualizaciones 
