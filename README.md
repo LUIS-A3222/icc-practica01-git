@@ -56,3 +56,26 @@ se usa para definir el orden en el que se integran las actualizaciones
       La diferencia en el segundo commit al integrar las ramas 
 4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
       No da mas importancia a alguno de commit y no puede decir que cambios conservar
+
+## Historial real
+
+```text
+            --<-binario.md                                                   Y--<--Conflicto Binario A
+           E--<-decimal.md     O--<-Conflicto Decimal A                     /   Z<--Conflicto---------\----
+          / \                 / \                                          /   /    Binario B          \   \
+A--B--C--D--F--(G--J)--K--M--N--P--Q--S------------------------------U--V--X--AA------------------------AB--AC--<-- main
+                       \ /          \  \                            /  /
+                        L--<-Rama    \  T--<--Conflicto Decimal D--/---
+                             Binario  R--<--Conflicto -------------
+                                            Decimal C
+```
+
+## Preguntas del reto 18
+- ¿En que se parece al dibujo inicial?
+	Tiene una estructura lineal similar
+- ¿En que es diferente?
+	Aumento bastante la cantidad de commits y de ramas hechas durante el proceso
+- ¿Que partes del historial no habían anticipado?
+	Los errores que se cometieron durante la realizacion de la practica como los errores minimos (ortograficos o estructurales) o errores grandes como cuando creamos una rama extra para el reto 14 por que salio inverso o cuando el desarrollador B tuvo problemas para que la maquina ejecutara correctamente los commits
+- ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
+	La integracion de las ramas, el problema merge por que ya vemos que el sistema no le da prioridad a nadie y no elimina nada mantienendo las 2 versiones hasta que se decida cual sera la version oficial
