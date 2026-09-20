@@ -17,3 +17,8 @@ git remote
 git add
 git commit 
 
+## Planeacion
+- Los pull se antes de realizar cualquier modificacion
+- Los push se haran despues de cada modificacion con su respectivo comentario 
+- El orden de los push y pull sera 1 a 1, empezando por programador A, al terminar el su push respectivo, el programador B hara su pull y push respectivos antes y despues de cada modificacion
+- Los turnos se iran rolando 1 a 1
