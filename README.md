@@ -1,21 +1,21 @@
 # icc-practica01-git
 practica 1.-
-##¿Que informacion almacena un commit?
-- La información actualizada de un documento
-##¿Que diferencia existe entre repositorio local y un repositorio remoto?
-- Cuando es local es por que ejecutas en la maquina central y remoto es cuando te conectas a la maquina central a través de otro dispositivo
-##¿Que esperan que ocurra cuando ambos integrantes modifican archivos distintos?
-- Los archivos se guardan al mismo tiempo
-##¿Que esperan que ocurra cuando ambos modifican exactamente la misma linea?
-- Se suben ambos cambios por separado
+- ¿Que informacion almacena un commit?
+ La información actualizada de un documento
+-¿Que diferencia existe entre repositorio local y un repositorio remoto?
+ Cuando es local es por que ejecutas en la maquina central y remoto es cuando te conectas a la maquina central a través de otro dispositivo
+- ¿Que esperan que ocurra cuando ambos integrantes modifican archivos distintos?
+ Los archivos se guardan al mismo tiempo
+- ¿Que esperan que ocurra cuando ambos modifican exactamente la misma linea?
+ Se suben ambos cambios por separado
 
 ## Comandos observados 
-git pull
-git fetch
-git clone
-git remote
-git add
-git commit 
+ git pull
+ git fetch
+ git clone
+ git remote
+ git add
+ git commit 
 
 ## Planeacion
 - Los pull se antes de realizar cualquier modificacion
@@ -25,9 +25,19 @@ git commit
 
 ## Historial Esperado
 	     --<-binario.md
-           /
+       /
 	  /
 A--B--C--D--F <-- main
 	  \
 	   \
 	    --<-decimal.md
+
+## Preguntas COLABORAR, ROMPER Y REPARAR
+- ¿Por qué Git rechazo el primer push de Developer B?
+ Porque ya existia un commit que no estaba en el push que intento hacer DevB
+- ¿Existía un conflicto de contenido?
+ Porque diferentes archivos estaban a destiempo   
+- ¿Qué ocurrió cuando ejecutaron pull?
+ No se actualizaron los documentos que no tenian cambios 
+- ¿Qué diferencia observan entre un push rechazado y un conflicto?
+ El push rechazado es cuando los documentos no estan sincronizados un conflicto es cuando se generan diferentes problemas ajenos a la sincronizacion de los archivos 
